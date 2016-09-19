@@ -1,6 +1,6 @@
 var path, qrdecoder;
 
-qrdecoder = require('..')();
+qrdecoder = require('..')({try_header:true});
 
 path = "./a.jpg";
 
